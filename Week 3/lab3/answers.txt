@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Has almost the same worst-case scenario time complexity as Selection Sort - O(n^2), but has a better best-case scenario time complexity - Ω(n), and ran in less time than Selection Sort when run with sorted50000.txt.
+
+sort2 uses: Merge Sort
+
+How do you know?: It has the best time complexity of the 3 possible sorts in the worst-case scenario - O(n logn) and takes the least amount of time to run with reversed50000.txt.
+
+sort3 uses: Selection Sort
+
+How do you know?: Is very slightly faster than Bubble Sort in worst-case scenario, but also takes longer than Bubble Sort in the best-case scenario - Ω(n^2), so it took the longest time to run with reversed50000.txt.
