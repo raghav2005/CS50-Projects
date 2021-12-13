@@ -69,6 +69,24 @@ body {
 	color: rgb(79, 143, 217);
 }
 
+.black_text {
+	color: black;
+}
+
+.list_img {
+	opacity: 1;
+}
+
+.list_img:hover {
+	opacity: 0.6;
+}
+
+#subject_carousel {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
 /* The Small Blue Box at the Right-Bottom Corner on Each Page */
 footer {
 	height: 3%;
