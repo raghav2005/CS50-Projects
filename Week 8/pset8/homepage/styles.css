@@ -1,0 +1,22 @@
+/* Set Language */
+@charset "UTF-8";
+
+/* Set the Display as Blocks  */
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+/* Set Font */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a, article, aside, footer, div, header, main, nav, section, dl, dt, dd {
+	font-family: Georgia;
+}
+
+/* Set Background Image */
+body {
+	background: url(background.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
