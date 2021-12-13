@@ -11,7 +11,26 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a, article, aside, footer, div, h
 	font-family: Georgia;
 }
 
+/* Fit entire page to browser height and width */
+body, html {
+  height: 100vh;
+  width: 100vh;
+}
+
 /* Set Background Image */
+/*body {
+	background-image: url("background.png");
+	height: 100vh;
+	width: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+
 body {
 	background: url(background.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -20,3 +39,61 @@ body {
 	background-size: cover;
 }
 
+/* Make Item Reach the Full Width */
+.full_width {
+	width: 100%;
+}
+
+/* Make Item Reach the Full Height */
+.fullHeight {
+	height: 100%;
+}
+
+/* Set the Text Color to White */
+.white_text {
+	color: white;
+}
+
+/* Stay 1px away from the top */
+.top_one_margin {
+	margin-top: 1px;
+}
+
+/* The Main Jumbotrons */
+.big_jumbotron {
+	background-color: rgb(2, 0, 130);
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/* Make the Font Size 14px */
+.fourteen_text {
+	font-size: 14px;
+}
+
+/* The Small Blue Box at the Right-Bottom Corner on Each Page */
+footer {
+	height: 22px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	background-attachment: scroll;
+	background-position: 0% 100%;
+	position: fixed;
+	bottom: 0pt;
+	right: 0pt;
+	opacity: 0.4;
+	background-color: rgb(2, 0, 130);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+}
+
+/* Make the Footer (Small Blue Box) Look Regular When Hovered Over - Not Transparent */
+footer:hover {
+	opacity: 1;
+	height: 100px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+}
