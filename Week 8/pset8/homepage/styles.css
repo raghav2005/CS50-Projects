@@ -86,6 +86,15 @@ body {
 	padding: 2%;
 }
 
+.contact_jumbotron {
+	background-color: rgba(2, 0, 35, 0.25);
+}
+
+.contact_info {
+	background-color: rgba(2, 0, 35, 0.25);
+	padding: 3%;
+}
+
 #subject_carousel {
 	display: grid;
 	justify-content: center;
