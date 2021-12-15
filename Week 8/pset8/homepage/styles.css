@@ -81,6 +81,10 @@ body {
 	opacity: 0.6;
 }
 
+.small_bg {
+	background-color: rgba(2, 0, 35, 0.5);
+}
+
 #subject_carousel {
 	display: grid;
 	justify-content: center;
