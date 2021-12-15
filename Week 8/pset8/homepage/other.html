@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<!--Set Language-->
+		<meta charset="utf-8">
+
+		<!--Make Website Extend Full-Page-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--Set Title Of Page/Head-->
+		<title>Other</title>
+
+		<!--All Tools Required for Bootstrap 4 Start-->
+		<!--Latest compiled and minified CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		
+		<!--jQuery library-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		
+		<!--Latest compiled JavaScript-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+		<!--Others-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+		<!--All Tools Required for Bootstrap 4 End-->
+
+		<!--Connect the CSS Page-->	
+		<link href="styles.css" rel="stylesheet" type="text/css">
+
+		<!--Enable tooltip for later use in HTML-->
+		<script src="tooltip.js" type="text/javascript"></script>
+
+		<!--Enable get_name for later use in HTML-->
+		<script src="get_name.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+		
+		<!--Navigation Bar Start-->
+		<nav class="navbar navbar-expand-sm bg-secondary navbar-dark sticky-top full_width">
+
+			<!--Brand With Raghav Start-->
+			<a class="navbar-brand" data-toggle="tooltip" data-placement="bottom" title="Creator">Raghav</a>
+			<!--Brand With Raghav End-->
+
+			<!--Add a Collapsible Feature to the NavBar if the Screen is too Small Start-->-
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--Add a Collapsible Feature to the NavBar if the Screen is too Small End-->
+		
+			<!--NavBar Links/Pages Start-->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+				<ul class="navbar-nav">
+
+					<!--Home Page-->
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" title="The home page">Home</a>
+					</li>
+
+					<!--Subjects Page-->
+					<li class="nav-item">
+						<a class="nav-link" href="subjects.html" data-toggle="tooltip" data-placement="bottom" title="Subjects the creator studies">Subjects</a>
+					</li>
+
+					<!--Hobbies Page-->
+					<li class="nav-item">
+						<a class="nav-link" href="hobbies.html" data-toggle="tooltip" data-placement="bottom" title="The creator's hobbies">Hobbies</a>
+					</li>
+
+					<!--Current Other Page-->
+					<li class="nav-item active">
+						<a class="nav-link" href="other.html" data-toggle="tooltip" data-placement="bottom" title="Other information about the creator">Other</a>
+					</li>
+
+				</ul>
+
+			</div>
+			<!--NavBar Links/Pages End-->
+
+		</nav>
+		<!--Navigation Bar End-->
+
+		<!--Container of Grid Basic Start-->
+		<div class="container">
+
+			<!--First Row of Grid Basic Start-->
+			<div class="row">
+
+				<div class="col-12">
+
+					<!--Main Jumbotron Start-->
+					<div class="jumbotron white_text top_one_margin big_jumbotron">
+
+						<div class="container">
+
+							<form>
+								<input id="name_input" autocomplete="off" autofocus placeholder="Enter you name" type="text">
+							</form>
+
+							<h1 id="welcome_msg"></h1>
+
+						</div>
+
+					</div>
+					<!--Main Jumbotron End-->
+
+				</div>
+
+			</div>
+			<!--First Row of Grid Basic End-->
+
+		</div>
+		<!--Container of Grid Basic End-->
+
+		<!--Footer With Info Start-->
+		<footer class="white_text">
+
+			<!--Main Info Start-->
+			<p>This is Raghav's Website.</p>	
+			<!--Main Info End-->
+
+			<!--List Info about Raghav Start-->
+			<p class="fourteen_text">
+				Click on the links to visit Raghav's: 
+				<br />
+				<!--GitHub-->
+				<a class="footer_link" href="https://github.com/raghav2005" target="_blank">GitHub Page</a> | 
+				<!--Twitter-->
+				<a class="footer_link" href="https://twitter.com/rag_awasthi" target="_blank">Twitter Page</a> | 
+				<!--LinkedIn-->
+				<a class="footer_link" href="https://www.linkedin.com/in/raghav-awasthi-74631b211/" target="_blank">LinkedIn Page</a>
+			</p>
+			<!--List Info about Raghav Start-->
+
+		</footer>
+		<!--Footer With Info End-->
+
+	</body>
+
+</html>
