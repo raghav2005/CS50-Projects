@@ -44,6 +44,21 @@
 		<!--Enable switch_nav for later use in HTML-->
 		<script async src="switch_nav.js" type="text/javascript"></script>
 
+		<!--Enable change_size for later use in HTML-->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				document.querySelector('.size_changer_1').addEventListener('change', function(event) {
+					document.querySelector('.size_to_change_1').style.fontSize = this.value;
+				});
+				document.querySelector('.size_changer_2').addEventListener('change', function(event) {
+					document.querySelector('.size_to_change_2').style.fontSize = this.value;
+				});
+				document.querySelector('.size_changer_3').addEventListener('change', function(event) {
+					document.querySelector('.size_to_change_3').style.fontSize = this.value;
+				});
+			});
+		</script>
+
 	</head>
 
 	<body>
@@ -189,12 +204,22 @@
 							<div class="row">
 
 								<div class="col-12">
-									<br /><br />
-									<p class="white_text small_bg">Anime refers to a specific style of cartoon produced or inspired by Japanese animation. Think of it this way: all anime shows are cartoons, but not all cartoons are anime. The art style associated with anime is very unique and recognizable. You’re probably familiar with the large eyes, wild hair, long arms and limbs, and more. This exaggerated design helps the characters more easily express emotions — of which there are plenty in anime. 
-									<br /><br />
-									Also adding to the emotional feel of anime are the technical animation tricks like dramatic closeups and zooms, intense lighting, and brilliant colors. But beyond its distinctive visual look, anime has endeared itself into the hearts of fans because of its complex characters and engaging plotlines.
-									<br /><br />
-									In America, animated shows are usually marketed toward and made for kids. Exceptions exist, of course, but generally speaking, adults gravitate more toward live-action entertainment. In Japan, though, animated shows are made for people of all ages, and it’s commonplace for people in their 40s, 50s, and beyond to have favorite anime characters and shows. But even though the content is animated, anime can have very adult themes, ranging from serious drama all the way to gore.</p>
+
+									<p class="white_text small_bg size_to_change_1">
+
+										<select class="size_changer_1">
+											<option value="large">large</option>
+											<option selected value="initial">initial</option>
+											<option value="small">small</option>
+										</select>
+
+										<br />
+										Anime refers to a specific style of cartoon produced or inspired by Japanese animation. Think of it this way: all anime shows are cartoons, but not all cartoons are anime. The art style associated with anime is very unique and recognizable. You’re probably familiar with the large eyes, wild hair, long arms and limbs, and more. This exaggerated design helps the characters more easily express emotions — of which there are plenty in anime. 
+										<br /><br />
+										Also adding to the emotional feel of anime are the technical animation tricks like dramatic closeups and zooms, intense lighting, and brilliant colors. But beyond its distinctive visual look, anime has endeared itself into the hearts of fans because of its complex characters and engaging plotlines.
+										<br /><br />
+										In America, animated shows are usually marketed toward and made for kids. Exceptions exist, of course, but generally speaking, adults gravitate more toward live-action entertainment. In Japan, though, animated shows are made for people of all ages, and it’s commonplace for people in their 40s, 50s, and beyond to have favorite anime characters and shows. But even though the content is animated, anime can have very adult themes, ranging from serious drama all the way to gore.
+									</p>
 									<br /><br />
 								</div>
 
@@ -208,13 +233,22 @@
 							<div class="row">
 
 								<div class="col-12">
-									<br /><br />
-									<p class="white_text small_bg">Manga is an umbrella term for a wide variety of comic books and graphic novels originally produced and published in Japan. Unlike American comic books, which are usually printed in full color, Japanese manga are almost always published in black and white. Full-color prints are often only used for special releases. 
 
-									<br /><br />
-									Japanese manga is read right-to-left rather than left-to-right, which is the norm for English language publications. This can take some getting used to if you have only ever read English publications,  but you will hardly notice once you’ve practiced enough. 
-									<br /><br />
-									In Japan, manga are typically released on a monthly or a weekly chapter-by-chapter basis through manga magazines such as Weekly Shōnen Jump, (which has been in circulation since 1968). If a series is popular enough, its chapters are then collected and published into volumes called tankōbon volumes, which usually feature a few chapters of the overall story. </p>
+									<p class="white_text small_bg size_to_change_2">
+
+										<select class="size_changer_2">
+											<option value="large">large</option>
+											<option selected value="initial">initial</option>
+											<option value="small">small</option>
+										</select>
+
+										<br />
+										Manga is an umbrella term for a wide variety of comic books and graphic novels originally produced and published in Japan. Unlike American comic books, which are usually printed in full color, Japanese manga are almost always published in black and white. Full-color prints are often only used for special releases. 
+										<br /><br />
+										Japanese manga is read right-to-left rather than left-to-right, which is the norm for English language publications. This can take some getting used to if you have only ever read English publications,  but you will hardly notice once you’ve practiced enough. 
+										<br /><br />
+										In Japan, manga are typically released on a monthly or a weekly chapter-by-chapter basis through manga magazines such as Weekly Shōnen Jump, (which has been in circulation since 1968). If a series is popular enough, its chapters are then collected and published into volumes called tankōbon volumes, which usually feature a few chapters of the overall story.
+									</p>
 									<br /><br />
 								</div>
 
@@ -228,12 +262,20 @@
 							<div class="row">
 
 								<div class="col-12">
-									<br /><br />
-									<p class="white_text small_bg">Cricket, England’s national summer sport, which is now played throughout the world, particularly in Australia, India, Pakistan, the West Indies, and the British Isles.
-									<br /><br />
-									Cricket is played with a bat and ball and involves two competing sides of 11 players. The field is oval with a rectangular area in the middle, known as the pitch, that is 20.12 metres by 3.04 metres wide. Two sets of three sticks, called wickets, are set in the ground at each end of the pitch. Across the top of each wicket lie horizontal pieces called bails. The sides take turns at batting and bowling; each turn is called an “innings”. Sides have one innings each, and the objective is to score the most runs. The bowlers, delivering the ball with a straight arm, try to hit the wicket with the ball so that the bails fall. This is one of several ways that the batsman is dismissed, or put out. A bowler delivers six balls at one wicke, then a different player from his side bowls six balls to the opposite wicket. The batting side defends its wicket.
-									<br /><br />
-									There are two batsman up at a time, andthe striker tries to hit the ball away from the wicket. A hit may be defensive or offensive. A defensive hit may protect the wicket but leave the batsmen no time to run to the opposite wicket. In that case the batsmen need not run, and play will resume with another bowl. If the batsman can make an offensive hit, he and the nonstriker at the other wicket change places. Each time both batsmen can reach the opposite wicket, one run is scored. Providing they have enough time without being caught out and dismissed, the batsmen may continue to cross back and forth between the wickets, earning an additional run for each time both reach the opposite side. There is an outside boundary around the cricket field. A ball hit to or beyond the boundary scores four points if it hits the ground and then reaches the boundary, six points if it reaches the boundary from the air. The team with the highest number of runs wins a match.</p>
+
+									<p class="white_text small_bg size_to_change_3">
+
+										<select class="size_changer_3">
+											<option value="large">large</option>
+											<option selected value="initial">initial</option>
+											<option value="small">small</option>
+										</select>
+
+										<br />
+										Cricket is played with a bat and ball and involves two competing sides of 11 players. The field is oval with a rectangular area in the middle, known as the pitch, that is 20.12 metres by 3.04 metres wide. Two sets of three sticks, called wickets, are set in the ground at each end of the pitch. Across the top of each wicket lie horizontal pieces called bails. The sides take turns at batting and bowling; each turn is called an “innings”. Sides have one innings each, and the objective is to score the most runs. The bowlers, delivering the ball with a straight arm, try to hit the wicket with the ball so that the bails fall. This is one of several ways that the batsman is dismissed, or put out. A bowler delivers six balls at one wicke, then a different player from his side bowls six balls to the opposite wicket. The batting side defends its wicket.
+										<br /><br />
+										There are two batsman up at a time, andthe striker tries to hit the ball away from the wicket. A hit may be defensive or offensive. A defensive hit may protect the wicket but leave the batsmen no time to run to the opposite wicket. In that case the batsmen need not run, and play will resume with another bowl. If the batsman can make an offensive hit, he and the nonstriker at the other wicket change places. Each time both batsmen can reach the opposite wicket, one run is scored. Providing they have enough time without being caught out and dismissed, the batsmen may continue to cross back and forth between the wickets, earning an additional run for each time both reach the opposite side. There is an outside boundary around the cricket field. A ball hit to or beyond the boundary scores four points if it hits the ground and then reaches the boundary, six points if it reaches the boundary from the air. The team with the highest number of runs wins a match.
+									</p>
 									<br /><br />
 								</div>
 
