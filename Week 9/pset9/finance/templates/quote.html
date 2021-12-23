@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    {% if query %}
+        <p>
+            1 share of {{ query.name }} ({{ query.symbol }}) costs {{ query.price | usd }}
+        </p>
+    {% else %}
+        <form action="/quote", method="POST">
+            <div class="form-group">
+                <input class="form-control" name="symbol" placeholder="Symbol" type="text" autocomplete="off" autofocus required>
+            </div>
+            <button class="btn btn-primary" type="submit">Quote</button>
+        </form>
+    {% endif %}
+{% endblock %}
