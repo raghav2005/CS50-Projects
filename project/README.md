@@ -1,6 +1,22 @@
-=======================
-
 # CONVERTERS
+
+
+## VIDEO DEMO: 
+
+### URL:
+https://youtu.be/xZ_ZtGUKh_g
+
+## DESCRIPTION:
+
+This is a program that was created using python, and it is intended to be
+used to convert between some everyday and commonly used units. You can
+click on the various buttons to take you to the different types of
+measurements to convert between, and click the "M" or "P" button on your
+keyboard to return to the main menu, or the previous screen you were on.
+Most of the details on how to use the program are listed when you click on
+the instructions button after opening the program, but before that, be sure
+to scroll to the bottom of this README page or [click here](#python-file-for-api)
+and follow the instructions to create an API and add that into a python file.
 
 ## REQUIREMENTS
 
