@@ -5,4 +5,4 @@ jdcal==1.4.1
 pygame==2.0.0
 pygame-gui==0.5.6
 requests==2.24.0
-urllib3==1.25.9
+urllib3==1.26.5
