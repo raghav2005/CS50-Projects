@@ -3,3 +3,4 @@ __pycache__/*
 *.mov
 __pycache__
 APIs.py
+certificate.*
